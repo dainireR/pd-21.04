@@ -1,8 +1,10 @@
 import json
+#nav csv bibliotēkas
 telefoni=[]
 videja_cena=[]
+#nav līdz galam uzrakstīt, netiek saglabāti dati no datnes
 with open("uzd4.json",encoding="utf-8")
-
+#mākslīgais intelekts iegāza, neatbilst pat ne tuvu uzdevuma nosaījumiem!!!!!
 LMT=[{"modelis":"iPhone 15 Pro","cena":1199.00}]
 
 Tet=[{"modelis":"iPhone 15 Pro","cena":1075.00}]
@@ -57,7 +59,7 @@ Tet6=[{"modelis":"Nokia G42","cena":235.00}]
 
 Euronics6=[{"modelis":"Nokia G42","cena":249.00}]
 
-
+#Nedrīkst uzticēties mākslīgajam intelektam!!! Tas kas nav iemācīts NAV iemācīts!
 trīskompānijas= LMT+Tet+Euronics
 videja_cena=sum(x["cena"] for x in trīskompānijas)
 
@@ -78,3 +80,4 @@ videja_cena=sum(x["cena"] for x in trīskompānijas)
 
 trīskompānijas= LMT6+Tet6+Euronics6
 videja_cena=sum(x["cena"] for x in trīskompānijas)
+#nav saglabāšanas
